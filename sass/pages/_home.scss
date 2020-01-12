@@ -12,7 +12,7 @@
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom,rgba($color__primary--light, 0.8),
   rgba($color__primary--dark, 0.8)),
-  url(../img/nat-4.jpg);
+  url(img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;
@@ -55,7 +55,7 @@
                       rgba($color__white, .9) 0%,
                       rgba($color__white, .9) 50%,
                       transparent 50%),
-                    url(../img/nat-10.jpg);
+                    url(img/nat-10.jpg);
   background-size: cover;
   border-radius: $border-radius-medium;
   box-shadow: 0 1.5rem 4rem rgba($color__black, .2);
@@ -65,7 +65,7 @@
     background-image: linear-gradient(105deg,
                         rgba($color__white, .9) 0%,
                         rgba($color__white, .9) 65%),
-                      url(../img/nat-10.jpg);
+                      url(img/nat-10.jpg);
   }
 
   @include respond(Tablet-Portrait){
@@ -73,7 +73,7 @@
                         rgba($color__white, .9) 0%,
                         rgba($color__white, .9) 100%,
                         transparent 65%),
-                      url(../img/nat-10.jpg);
+                      url(img/nat-10.jpg);
   }
 
   &__form{
